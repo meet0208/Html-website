@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1146px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container1{
+    width: 1146px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav-logo{
+    float: left;
+}
+.header{
+    background-color: #963184;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.nav-items{
+    float: right;
+    margin-top: 26px;
+    margin-bottom: 22px;
+    
+}
+ul{
+    float: left;
+}
+li{
+    display: inline;
+    margin-right: 15px;
+    color: white;    
+}
+.header-button{
+    display: none;
+    float: right;
+    margin:20px 0px;
+    color: black;
+    background-color: wheat;
+}
+
+/* slick css */
+.slider{
+    position: relative;
+    width: 100%;
+}
+.slick-list.draggable {
+    position: relative;
+    overflow: hidden;
+}
+button.slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 2;
+    float: right;
+    right: 10%;
+    bottom: 50%;
+    background-color: transparent;
+    border: none;
+}
+button.slick-next.slick-arrow{
+   position: absolute;
+   z-index: 2;
+   bottom: 50%;
+   left: 10%;
+   background-color: transparent;
+   border: none;
+}
+/* end slick */
+.content{
+    text-align: center;
+    margin-top: 40px;
+}
+.content h2{
+    font-size: 40px;
+}
+.header-line::after {
+    content: "";
+    border-bottom:solid #963184;
+    display: block;
+    width: 50px;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p{
+    font-family:Poppins, Regular;
+    letter-spacing: 0ch;
+    font-size: 16px;
+    letter-spacing: normal;
+    margin-top: 26px;
+    text-align: left;
+    }
+#p-color{
+    margin-bottom: 40px; margin-top: 40px; color: #676A6C; font-family: none;
+}
+    
+.cart{
+    width: 33.33%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+.title h4{
+    margin-top: 20px;
+}
+.font-p p{
+    font-size: 14px;
+    font-family: Poppins, Light;
+}
+#image img{
+    width: 100%;
+}
+.cart-button{
+    background-color: #963184;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.cart-button img{
+    background-color: white;
+}
+#second-content{
+    margin-top: 50px;
+}
+
+.full_container{
+    background-color:#F4F6FB;
+}
+
+#bg-color{
+    padding: 25px;
+    background-color: white;
+    
+    font-family: Montserrat;
+   
+}
+#bg-color a{
+    color: #953885;
+
+}
+#bg-color a:hover{
+    background-color: rgb(255, 175, 175);
+    border-radius: 2px solid black;
+}
+
+#second-cart{
+    margin-top: 40px;
+}
+.footer{
+    background-color: #953885;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-items{
+    float: left;
+    color: white;
+}
+.footer-items li{
+    margin-right: 20px;
+}
+.footer-items li:last-child{
+    margin-right: 0px;
+}
+.footer-icon{
+    float: right;    
+}
+.footer-icon img{
+    margin-right: 20px;
+}
+.footer-icon img:last-child{
+    margin-right: 0px;
+}
+.footer-top{
+    margin-top: 10px;  
+}
+
+
+.container1::after{
+    width: 100%;
+    content: "";
+    border: 1px outset;
+    display: block;
+    border-radius: 3px;
+    content: "";
+    margin-top: 40px;
+}
+.footer-bottom{
+    color: white;
+    margin-top: 10px;
+    text-align: center  ;
+}
+#footer-color{
+    color:white;
+    font-family: none;
+    text-align: center;
+}
+.view-more{
+    margin: 10px 0;
+}
+
+@media screen and (max-width:1146px) {
+    .container{
+        width: 962px;
+        overflow: hidden;
+        margin: 0 auto;
+
+    }
+    .container1{
+        width: 962px;
+        overflow: hidden;
+        margin: 0 auto;
+
+    }
+    .header-button{
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container{
+        width: 738px;
+        overflow: hidden;
+        margin: 0 auto;
+       
+    }
+    .container1{
+        width: 738px;
+        overflow: hidden;
+        margin: 0 auto;
+       
+    }
+    .header-button{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width: 520px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .container1{
+        width: 520px;
+        overflow: hidden;
+        margin: 0 auto;
+       
+    }
+    
+  .header{
+    background-color: #963184;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+    .nav-items{
+        /* float: right; */
+        
+        margin-top: 26px;
+        margin-bottom: 22px;
+        
+    }
+    ul{
+        float: right;
+    }
+    li{
+        display: block;
+        margin-right: 15px;
+        color: white;    
+    }
+    .header-button{
+        display: block;
+    }
+
+
+    .nav-items{
+        display: none;
+    }
+    .cart{
+        width: 100%;
+    }
+    .footer-items{
+        
+        /*float: left;*/
+        text-align: center;
+    }
+    .footer-icon{
+        
+        float: none;
+        text-align: center;    
+    }
+    
+    .footer-bottom{
+        margin-top:40px;
+
+    }
+    .footer-top{
+        margin-top: 5px;
+    }
+    .footer-items li{
+        margin-top: 10px;
+        float:  left;
+    }
+    .footer-icon img{
+        margin-top: 20px;
+    }
+    #bg-color{
+        width: 100%;
+        
+    }
+    
+    
+
+}
+@media screen and (max-width:550px) {
+    .container{
+        width: 320px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .container1{
+        width: 320px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .header-button{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .cart{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .container{
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container1{
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-button{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .cart{
+        width: 100%;
+       
+    }
+    
+}
